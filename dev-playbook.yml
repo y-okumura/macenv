@@ -56,3 +56,6 @@
     - name: cask パッケージの情報を保存
       shell: brew cask info {{ item }} > cask_info/{{ item }}
       with_items: cask_result.results | selectattr('changed') | map(attribute='item') | map(attribute='name') | list
+    - name: bundlerのインストール
+      sudo: yes
+      shell: gem install bundler
