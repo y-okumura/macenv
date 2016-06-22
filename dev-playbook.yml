@@ -4,6 +4,7 @@
     homebrew_taps:
       - caskroom/cask
     homebrew_packages:
+      - { name: docker-cloud }
       - { name: source-highlight }
       - { name: brew-cask }
     homebrew_cask_packages:
@@ -16,7 +17,9 @@
       - { name: dropbox }
       - { name: sourcetree }
       - { name: github-desktop }
+      - { name: kdiff3 }
       - { name: atom }
+      - { name: google-drive }
   tasks:
     - name: update brew
       register: result
