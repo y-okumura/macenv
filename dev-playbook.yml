@@ -4,13 +4,12 @@
     homebrew_taps:
       - caskroom/cask
     homebrew_packages:
-      - { name: docker-cloud }
-      - { name: source-highlight }
+#      - { name: source-highlight }
       - { name: brew-cask }
     homebrew_cask_packages:
       - { name: google-chrome }
       - { name: java }
-      - { name: intellij-idea }
+      - { name: netbeans }
       - { name: vagrant }
       - { name: virtualbox }
       - { name: dockertoolbox }
@@ -59,5 +58,5 @@
       shell: brew cask info {{ item }} > cask_info/{{ item }}
       with_items: cask_result.results | selectattr('changed') | map(attribute='item') | map(attribute='name') | list
     - name: bundlerのインストール
-      sudo: yes
+      become: yes
       shell: gem install bundler
