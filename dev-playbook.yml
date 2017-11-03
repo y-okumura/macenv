@@ -5,7 +5,9 @@
     - chrome
     - JDK8
     - JDK
-#    - netbeans
+    - netbeans
+    - eclipse
+    - intellij-idea-ce
 #    - docker
 #    - sourcetree
 #    - github-desktop

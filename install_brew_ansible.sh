@@ -7,5 +7,4 @@ fi
 
 brew install ansible
 
-sudo echo '事前にsudoしてないとbecomeがエラーになるみたいなので先にしておく'
-ansible-playbook dev-playbook.yml
+ansible-playbook -K dev-playbook.yml

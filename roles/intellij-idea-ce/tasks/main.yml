@@ -1,0 +1,4 @@
+- name: intellij-idea-ceをインストール
+  homebrew_cask:
+    name: intellij-idea-ce
+    state: present
