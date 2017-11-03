@@ -1,0 +1,4 @@
+- name: netbeansをインストール
+  homebrew_cask:
+    name: dropbox
+    state: present

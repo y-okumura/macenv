@@ -2,15 +2,18 @@
 - hosts: localhost
   roles:
     - brew-cask
-    - chrome
     - JDK8
     - JDK
+    - bundler
+    - docker
+    - atom
     - netbeans
     - eclipse
     - intellij-idea-ce
-    - docker
     - sourcetree
     - github-desktop
-    - atom
-#    - google-drive
-    - bundler
+    - chrome
+    - google-drive
+    - dropbox
+    - scansnap
+    - duet-display

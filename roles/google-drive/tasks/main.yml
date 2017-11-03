@@ -1,0 +1,4 @@
+- name: google-driveをインストール
+  homebrew_cask:
+    name: google-drive-file-stream
+    state: present

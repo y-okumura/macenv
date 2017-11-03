@@ -1,2 +1,2 @@
 dependencies:
-  - role: brew-versions
+  - role: cask-versions
