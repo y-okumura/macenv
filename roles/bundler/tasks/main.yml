@@ -1,3 +1,5 @@
 - name: bundlerのインストール
   become: yes
-  shell: gem install bundler
+  gem:
+    name: bundler
+    state: latest

@@ -3,7 +3,8 @@
   roles:
     - brew-cask
     - chrome
-#    - JDK
+    - JDK8
+    - JDK
 #    - netbeans
 #    - docker
 #    - sourcetree
