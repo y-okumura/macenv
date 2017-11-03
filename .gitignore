@@ -4,8 +4,4 @@ cask_info
 
 *.retry
 
-get-pip.py
-
-setuptools-25.1.6.zip
-
 .DS_Store
