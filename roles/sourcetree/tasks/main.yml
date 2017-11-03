@@ -1,0 +1,4 @@
+- name: sourcetreeをインストール
+  homebrew_cask:
+    name: sourcetree
+    state: present

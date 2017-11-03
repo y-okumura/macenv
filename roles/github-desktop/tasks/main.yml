@@ -1,0 +1,4 @@
+- name: GitHub Desktopをインストール
+  homebrew_cask:
+    name: github
+    state: present

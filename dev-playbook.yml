@@ -9,8 +9,8 @@
     - eclipse
     - intellij-idea-ce
     - docker
-#    - sourcetree
-#    - github-desktop
-#    - atom
+    - sourcetree
+    - github-desktop
+    - atom
 #    - google-drive
     - bundler
