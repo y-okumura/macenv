@@ -1,0 +1,4 @@
+- name: Dockerをインストール
+  homebrew_cask:
+    name: docker
+    state: present
