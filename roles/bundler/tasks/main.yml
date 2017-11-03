@@ -1,0 +1,3 @@
+- name: bundlerのインストール
+  become: yes
+  shell: gem install bundler
