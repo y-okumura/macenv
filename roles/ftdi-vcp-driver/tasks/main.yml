@@ -1,0 +1,4 @@
+- name: FTDI社製チップ用仮想COMポートドライバをインストール
+  homebrew_cask:
+    name: ftdi-vcp-driver
+    state: present
