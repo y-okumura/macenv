@@ -1,2 +1,2 @@
 - name: homebrew の tap リポジトリを追加
-  homebrew_tap: tap=caskroom/cask state=present
+  homebrew_tap: tap=homebrew/cask state=present
