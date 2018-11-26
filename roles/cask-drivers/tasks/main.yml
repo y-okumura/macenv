@@ -1,4 +1,4 @@
 - name: caskroom/versionsを追加
   homebrew_tap:
-    tap: caskroom/drivers
+    tap: homebrew/cask-drivers
     state: present
