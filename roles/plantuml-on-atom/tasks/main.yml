@@ -1,0 +1,4 @@
+- name: plantuml-viewerをインストール
+  command: apm install plantuml-viewer
+- name: language-plantumlをインストール
+  command: apm install language-plantuml
