@@ -2,24 +2,23 @@
 - hosts: localhost
   roles:
     - brew-cask
-    - ftdi-vcp-driver
-    - JDK8
-    - JDK
-    - bundler
-    - docker
-    - openshift-cli
-    - atom
-    - plantuml-on-atom
-    - platformio-ide-terminal
-    - netbeans
-    - eclipse
-    - intellij-idea-ce
-    - sourcetree
-    - github-desktop
     - chrome
     - google-drive
     - dropbox
     - scansnap
-    - duet-display
+    - atom
+    - plantuml-on-atom
+    - platformio-ide-terminal
+    - docker
+    - openshift-cli
+    - sourcetree
+    - github-desktop
+    - JDK8
+    - JDK
+    - netbeans
+    - eclipse
+    - intellij-idea-ce
+    - bundler
     - python3
     - pycharm
+    - ftdi-vcp-driver
