@@ -9,6 +9,8 @@
     - docker
     - openshift-cli
     - atom
+    - plantuml-on-atom
+    - platformio-ide-terminal
     - netbeans
     - eclipse
     - intellij-idea-ce

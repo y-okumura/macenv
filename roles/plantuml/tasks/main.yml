@@ -1,0 +1,3 @@
+- name: plantumlをインストール
+  homebrew:
+    name: plantuml

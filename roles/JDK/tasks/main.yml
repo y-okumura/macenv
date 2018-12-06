@@ -1,4 +1,4 @@
-- name: 最新のJava(9)をインストール
+- name: 最新のJavaをインストール
   homebrew_cask:
     name: java
     state: present
