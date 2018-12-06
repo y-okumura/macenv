@@ -3,6 +3,7 @@
   roles:
     - brew-cask
     - chrome
+    - slack
     - google-drive
     - dropbox
     - scansnap
