@@ -1,4 +1,4 @@
 - name: JDK8をインストール
   homebrew_cask:
     name: java8
-    state: present
+    state: latest

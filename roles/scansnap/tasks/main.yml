@@ -1,4 +1,4 @@
 - name: scansnap ix-500ドライバをインストール
   homebrew_cask:
     name: fujitsu-scansnap-manager-ix500
-    state: present
+    state: latest

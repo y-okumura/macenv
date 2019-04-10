@@ -1,8 +1,12 @@
-- name: eclipse-jeeをインストール
+- name: eclipse-javaをインストール
+  homebrew_cask:
+    name: eclipse-java
+    state: latest
+- name: eclipse-jeeもインストール
   homebrew_cask:
     name: eclipse-jee
-    state: present
+    state: latest
 - name: eclipse-cppもインストール
   homebrew_cask:
     name: eclipse-cpp
-    state: present
+    state: latest

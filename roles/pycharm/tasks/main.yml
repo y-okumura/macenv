@@ -1,4 +1,4 @@
 - name: pycharm CEをインストール
   homebrew_cask:
     name: pycharm-ce
-    state: present
+    state: latest

@@ -1,4 +1,4 @@
 - name: slackをインストール
   homebrew_cask:
     name: slack
-    state: present
+    state: latest

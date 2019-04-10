@@ -1,4 +1,4 @@
 - name: Python 3 をインストール
   homebrew:
     name: python3
-    state: present
+    state: latest

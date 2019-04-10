@@ -1,4 +1,4 @@
 - name: duet displayをインストール
   homebrew_cask:
     name: duet
-    state: present
+    state: latest

@@ -1,4 +1,4 @@
 - name: chromeをインストール
   homebrew_cask:
     name: google-chrome
-    state: present
+    state: latest

@@ -1,4 +1,4 @@
 - name: Atomをインストール
   homebrew_cask:
     name: atom
-    state: present
+    state: latest

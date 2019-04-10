@@ -1,4 +1,4 @@
 - name: dropboxをインストール
   homebrew_cask:
     name: dropbox
-    state: present
+    state: latest

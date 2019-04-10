@@ -1,4 +1,4 @@
 - name: 最新のJavaをインストール
   homebrew_cask:
     name: java
-    state: present
+    state: latest
