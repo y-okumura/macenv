@@ -5,7 +5,7 @@
     - chrome
     - slack
     - google-drive
-    - dropbox
+#    - dropbox
     - scansnap
     - atom
     - plantuml-on-atom
@@ -14,7 +14,7 @@
     - openshift-cli
     - sourcetree
     - github-desktop
-    - JDK8
+#    - JDK8
     - JDK
     - netbeans
     - eclipse
