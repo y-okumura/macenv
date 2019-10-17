@@ -5,7 +5,7 @@
     - chrome
     - slack
     - google-drive
-    - dropbox
+#    - dropbox
     - scansnap
     - atom
     - plantuml-on-atom
