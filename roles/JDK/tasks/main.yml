@@ -1,4 +1,4 @@
-- name: caskroom/versionsを追加
+- name: AdoptOpenJDKのtapを追加
   homebrew_tap:
     tap: AdoptOpenJDK/openjdk
     state: present
