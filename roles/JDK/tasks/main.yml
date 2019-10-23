@@ -1,4 +1,7 @@
-- name: 最新のJavaをインストール
+- name: caskroom/versionsを追加
+  homebrew_tap:
+    tap: AdoptOpenJDK/openjdk
+    state: present- name: 最新はgradle未対応のためLTSのJava11をインストール
   homebrew_cask:
-    name: adoptopenjdk
+    name: adoptopenjdk11
     state: latest
