@@ -1,3 +1,8 @@
+- name: AdoptOpenJDKのtapを追加
+  # FIXME JDKと重複
+  homebrew_tap:
+    tap: AdoptOpenJDK/openjdk
+    state: present
 - name: JDK8をインストール
   homebrew_cask:
     name: adoptopenjdk/openjdk/adoptopenjdk8
