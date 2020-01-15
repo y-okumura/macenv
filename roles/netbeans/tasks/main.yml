@@ -1,4 +1,4 @@
 - name: netbeansをインストール
   homebrew_cask:
-    name: netbeans-java-ee
+    name: netbeans
     state: latest
