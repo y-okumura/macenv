@@ -7,7 +7,7 @@
     - google-drive
     - dropbox
     - scansnap
-    - atom
+#    - atom
     - plantuml-on-atom
     - platformio-ide-terminal
     - docker
