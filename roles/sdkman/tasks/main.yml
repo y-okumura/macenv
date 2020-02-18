@@ -1,0 +1,9 @@
+- name: SDKMAN!インストールスクリプトを取得して
+  uri:
+    url: https://get.sdkman.io
+    return_content: yes
+  register: get_sdkman_io
+- name: shellでSDKMAN!インストールスクリプトを実行
+  shell: "{{ get_sdkman_io.content }}"
+  args:
+    creates: $HOME/.sdkman

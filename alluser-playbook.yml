@@ -1,5 +1,5 @@
 ---
 - hosts: localhost
   roles:
-    - plantuml-on-atom
-    - platformio-ide-terminal
+    - sdkman
+
