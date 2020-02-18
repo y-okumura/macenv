@@ -1,0 +1,13 @@
+- name: プラグインをまとめてインストール
+  homebrew_cask:
+    name: "{{ item }}"
+    state: latest
+  with_items:
+    - qlcolorcode
+    - qlstephen
+    - qlmarkdown
+    - quicklook-json
+    - qlimagesize
+    - suspicious-package
+    - quicklookase
+    - qlvideo

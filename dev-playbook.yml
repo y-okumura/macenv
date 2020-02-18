@@ -8,7 +8,8 @@
     - dropbox
     - scansnap
 #    - atom
-    - plantuml-on-atom
+    - vscode
+    - plantuml
     - platformio-ide-terminal
     - docker
     - openshift-cli
@@ -23,3 +24,5 @@
     - python3
     - pycharm
     - ftdi-vcp-driver
+    - fonts
+    - qlplugins

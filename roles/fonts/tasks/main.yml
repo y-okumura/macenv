@@ -1,0 +1,10 @@
+- name: homebrew の cask-fonts リポジトリを追加
+  homebrew_tap: tap=homebrew/cask-fonts state=present
+- name: フォントをインストール
+  homebrew_cask:
+    name: "{{ item }}"
+    state: latest
+  with_items:
+    - font-mplus-1mn-nerd-mono
+    - font-mplus-nerd-font-mono
+    - font-source-han-mono
