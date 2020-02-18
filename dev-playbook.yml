@@ -2,27 +2,25 @@
 - hosts: localhost
   roles:
     - brew-cask
-    - chrome
-    - slack
-    - google-drive
-    - dropbox
-    - scansnap
-#    - atom
-#    - platformio-ide-terminal
-    - vscode
-    - plantuml
-    - docker
-    - openshift-cli
-    - sourcetree
-    - github-desktop
-    - JDK8
-    - JDK
-    - netbeans
-    - eclipse
-    - intellij-idea-ce
     - bundler
-    - python3
-    - pycharm
+    - chrome
+    - docker
+    - dropbox
+    - eclipse
     - ftdi-vcp-driver
     - fonts
+    - github-desktop
+    - google-drive
+    - JDK
+    - JDK8
+    - netbeans
+    - intellij-idea-ce
+    - openshift-cli
+    - plantuml
+    - pycharm
+    - python3
     - qlplugins
+    - scansnap
+    - slack
+    - sourcetree
+    - vscode
