@@ -8,9 +8,9 @@
     - dropbox
     - scansnap
 #    - atom
+#    - platformio-ide-terminal
     - vscode
     - plantuml
-    - platformio-ide-terminal
     - docker
     - openshift-cli
     - sourcetree
