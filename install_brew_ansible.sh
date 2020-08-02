@@ -9,3 +9,4 @@ fi
 brew install ansible
 
 ansible-pull -U https://github.com/y-okumura/macenv.git -K dev-playbook.yml
+ansible-pull -U https://github.com/y-okumura/macenv.git alluser-playbook.yml
