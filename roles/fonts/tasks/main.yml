@@ -5,6 +5,7 @@
     name: "{{ item }}"
     state: latest
   with_items:
-    - font-mplus-1mn-nerd-mono
-    - font-mplus-nerd-font-mono
+    - font-noto-mono
+    - font-noto-sans-mono
+    - font-noto-sans-cjk-jp
     - font-source-han-mono
