@@ -13,7 +13,7 @@
     - google-drive
     - JDK
     - JDK8
-    - netbeans
+#    - netbeans
     - intellij-idea-ce
     - openshift-cli
     - plantuml
