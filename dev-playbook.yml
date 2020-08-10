@@ -16,7 +16,7 @@
 #    - netbeans
     - intellij-idea-ce
     - openshift-cli
-    - plantuml
+#    - plantuml
     - pycharm
     - python3
     - qlplugins
